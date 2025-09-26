@@ -29,9 +29,6 @@ const NewLaunchProjects = () => {
     if (navigator.share) {
       navigator
         .share({
-            images:project.images, 
-          title: project.title,
-          text: project.description,
           url: window.location.href, // You can replace with project-specific URL
         })
         .then(() => console.log("Shared successfully"))
