@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <header>
             {/* Top Social Bar */}
-            <div className="bg-primary text-white d-flex justify-content-end py-1 px-3">
+            <div className="text-white d-flex justify-content-end">
                 <a href="#" className="text-white mx-2"><i className="fab fa-facebook-f"></i></a>
                 <a href="#" className="text-white mx-2"><i className="fab fa-whatsapp"></i></a>
                 <a href="#" className="text-white mx-2"><i className="fab fa-linkedin-in"></i></a>
@@ -38,8 +38,8 @@ const Header = () => {
 
                         {/* User Dropdown */}
                         <Dropdown align="end">
-                       
-      <FaUser size={24} />
+
+                            <FaUser size={24} />
 
                             <Dropdown.Toggle variant="light" id="dropdown-basic">
                             </Dropdown.Toggle>
