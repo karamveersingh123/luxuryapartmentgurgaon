@@ -30,7 +30,7 @@ const Header = () => {
                         <Nav className="mx-auto fw-medium fs-6">
                             <Link href="/" className="nav-link mx-1">Home</Link>
                             <Link href="/about-us" className="nav-link mx-1">About Us</Link>
-                            <Link href="/projects" className="nav-link mx-1">Projects</Link>
+                            <Link href="/property/" className="nav-link mx-1">Projects</Link>
                             <Link href="/developers" className="nav-link mx-1">Developers</Link>
                             <Link href="/contact" className="nav-link mx-1">Contact Us</Link>
                             <Link href="/locations" className="nav-link mx-1">Locations</Link>
