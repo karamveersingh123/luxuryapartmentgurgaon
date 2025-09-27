@@ -9,6 +9,8 @@ import HandpickedCollection from "./components/homedetails/HandpickedCollection"
 import TouchBanner from "./components/homedetails/TouchBanner";
 import CompleteServices from "./components/homedetails/CompleteServices";
 import WhyChoose from "./components/homedetails/WhyChoose";
+import Testimonial from "./components/homedetails/Testimonial";
+import LeadingDevelopers from "./components/homedetails/LeadingDevelopers";
 
 
 export default function Home() {
@@ -22,6 +24,8 @@ export default function Home() {
 <TouchBanner/>
 <CompleteServices/>
 <WhyChoose/>
+<Testimonial/>
+<LeadingDevelopers/>
     </>
   );
 }
