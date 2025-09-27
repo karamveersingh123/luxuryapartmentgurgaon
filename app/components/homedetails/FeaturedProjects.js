@@ -13,7 +13,7 @@ import {
 } from "react-bootstrap";
 import { FaShareAlt, FaHeart, FaBuilding } from "react-icons/fa";
 
-const NewLaunchProjects = () => {
+const FeaturedProjects = () => {
     const [showModal, setShowModal] = useState(false);
     const [selectedProject, setSelectedProject] = useState(null);
 
@@ -77,7 +77,7 @@ const NewLaunchProjects = () => {
             whatsapp: "https://wa.me/"
         },
 
-          {
+        {
             id: 3,
             title: "DLF Privana",
             price: "₹ 2.5 Crore",
@@ -100,10 +100,8 @@ const NewLaunchProjects = () => {
         <div className="container my-5">
             {/* Section Heading */}
             <div className="text-center mb-4">
-                <p className="text-uppercase text-muted mb-1 fw-semibold">
-                    Gurgaon Real Estate
-                </p>
-                <h2 className="fw-bold">New Launch Projects</h2>
+               
+                <h2 className="fw-bold">Our Featured Projects</h2>
             </div>
 
             <Container>
@@ -237,4 +235,4 @@ const NewLaunchProjects = () => {
     );
 };
 
-export default NewLaunchProjects;
+export default FeaturedProjects;
