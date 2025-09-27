@@ -143,3 +143,26 @@
 
 
 /* searchfilter css home end*/
+
+
+.category-btn-text{
+      background: rgb(0 0 0 / 36%) !important;
+    padding: 15px !important;
+    border-radius: 5px !important;
+    width: 67% !important;
+
+}
+
+
+.listing-text{
+  font-size: 14px !important;
+    font-weight: 500 !important;
+}
+
+.listing-btn{
+  background: #254489 !important;
+    border: none !important;
+    color: #fff !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+}
