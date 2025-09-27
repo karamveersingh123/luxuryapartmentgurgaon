@@ -11,6 +11,7 @@ import CompleteServices from "./components/homedetails/CompleteServices";
 import WhyChoose from "./components/homedetails/WhyChoose";
 import Testimonial from "./components/homedetails/Testimonial";
 import LeadingDevelopers from "./components/homedetails/LeadingDevelopers";
+import Footer from "./components/Footer";
 
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
 <WhyChoose/>
 <Testimonial/>
 <LeadingDevelopers/>
+<Footer/>
     </>
   );
 }

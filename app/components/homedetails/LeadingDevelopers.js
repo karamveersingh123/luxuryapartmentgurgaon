@@ -61,7 +61,7 @@ const LeadingDevelopers = () => {
                         <img
                             src={item.logo}
                             alt={`Developer ${item.id}`}
-                            style={{ width: '8rem', margin: 'unset' }}
+                            style={{ width: '8rem', margin: 'unset', border: '1px solid #80808073' }}
                         />
                     </div>
                 ))}
